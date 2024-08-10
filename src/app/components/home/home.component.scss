@@ -12,3 +12,69 @@
         font-weight: 700;
     }
 }
+
+.home-hero-middle {
+  background-image: url('../../../assets/images/middle.jpg');
+  background-size: cover;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  border-radius: 10px;
+}
+
+.home-hero-side {
+  background-color: #D5E4FA;
+  border-radius: 10px;
+  padding-top: 50px;
+}
+
+.home-hero-list {
+  padding: 20px;
+}
+
+.home-hero-list-item {
+  list-style-type: none;
+  border-bottom: #979797 1px solid;
+  margin-bottom: 18px;
+
+  p {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 200;
+    font-size: 14px;
+  }
+
+  h4 {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
+
+.home-choice-left {
+  background-color: #D5E4FA;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  padding-right: 40px;
+  padding-left: 40px;
+  h1 {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+  }
+}
+
+.home-choice-right {
+  background-image: url('../../../assets/images/middle-side.png');
+  background-size: cover;
+  min-height: 800px;
+}
+
+.btn-tertiary {
+  background-color: #F7792C;
+  color: #fff;
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  padding: 15px;
+  border: none;
+  border-radius: 10px;
+}
