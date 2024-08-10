@@ -58,14 +58,28 @@
   h1 {
     font-family: Poppins, "Helvetica Neue", sans-serif;
     font-weight: 300;
-    font-size: 28px;
+    font-size: 35px;
+    line-height: 2.5rem;
   }
+
+  p {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5rem;
+    margin-bottom: 30px;
+  }
+
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 
 .home-choice-right {
   background-image: url('../../../assets/images/middle-side.png');
   background-size: cover;
   min-height: 800px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .btn-tertiary {
@@ -74,7 +88,38 @@
   font-family: Poppins, "Helvetica Neue", sans-serif;
   font-weight: 400;
   font-size: 18px;
-  padding: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 30px;
+  padding-left: 30px;
   border: none;
   border-radius: 10px;
+}
+
+.btn-tertiary:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.home-choice-title {
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+  font-weight: 400;
+  font-size: 44px;
+}
+
+.home-hero {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.home-hero-title {
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+  padding-top: 100px;
+}
+
+.home-choice {
+  margin-bottom: 50px;
+}
+
+.home-choice-header {
+  margin-bottom: 50px;
 }

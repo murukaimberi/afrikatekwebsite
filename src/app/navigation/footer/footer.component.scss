@@ -1,0 +1,75 @@
+.footer {
+  background-color: #082C52;
+  color: #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.footer-company-title {
+  h1 {
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+
+  input {
+    padding: 10px;
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    min-width: 250px;
+    margin-right: 10px;
+  }
+
+  button {
+    padding: 10px;
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    background-color: #F7792C;
+    border-radius: 5px;
+    border: none;
+  }
+
+  margin-bottom: 30px;
+}
+
+.footer-socials {
+  i {
+    font-size: 28px;
+    padding: 5px;
+  }
+}
+
+.footer-links {
+  li {
+    list-style-type: none;
+    font-family: Poppins, "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    margin-bottom: 15px;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
+    }
+
+    a:hover {
+      color: #ccc;
+    }
+  }
+}
+
+.footer-copyrights {
+  font-family: Poppins, "Helvetica Neue", sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+
+  span {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    vertical-align: sub;
+  }
+}

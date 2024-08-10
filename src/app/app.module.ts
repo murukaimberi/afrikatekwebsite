@@ -8,6 +8,9 @@ import { NavBarComponent } from './navigation/nav-bar/nav-bar.component';
 import { FooterComponent } from './navigation/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
 import { ProjectsComponent } from './components/projects/projects.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
+import { ServicesComponent } from './components/services/services.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +18,10 @@ import { ProjectsComponent } from './components/projects/projects.component';
     NavBarComponent,
     FooterComponent,
     HomeComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    AboutUsComponent,
+    ContactUsComponent,
+    ServicesComponent
   ],
   imports: [
     BrowserModule,
